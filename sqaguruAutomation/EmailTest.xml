@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite3" parallel="tests" thread-count="1">
+<!--<parameter>-->
+<parameter name="browserName" value="edge" />
+<!--</parameter>-->
+	<test name="Nopackage">
+		<classes>
+			<class name="testNg.TestNgParameterTest" />
+			
+		</classes>
+	</test>
+</suite>
+

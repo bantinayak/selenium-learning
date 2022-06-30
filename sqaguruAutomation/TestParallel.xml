@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="allpack" parallel="tests" thread-count="2">
+<test name="Textbox">
+	<packages>
+			<package name="testNg" />
+		</packages>	
+	</test>
+
+</suite>
